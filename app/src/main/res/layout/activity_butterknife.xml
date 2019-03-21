@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/activity_butterknife_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/activity_butterknife_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="文字内容转换" />
+
+    <Button
+        android:id="@+id/activity_butterknife_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="颜色转换" />
+
+    <ListView
+        android:id="@+id/activity_butterknife_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
