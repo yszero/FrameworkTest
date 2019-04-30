@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".butterknife.ButterknifeActivity" />
-        <activity android:name=".rxjava.RxJavaActivity"></activity>
+        <activity android:name=".rxjava.RxJavaActivity" />
+        <activity android:name=".android_priority_job_queue.APJQActivity"></activity>
     </application>
 
 </manifest>

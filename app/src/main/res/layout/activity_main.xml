@@ -11,7 +11,8 @@
         android:id="@+id/activity_main_go_rxjava"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="RxJava" />
+        android:text="RxJava"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/activity_main_go_butterknife"
@@ -19,5 +20,10 @@
         android:layout_height="50dp"
         android:text="Butterknife" />
 
+    <Button
+        android:id="@+id/activity_main_go_apjq"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Android Priority Job Queue" />
 
 </LinearLayout>

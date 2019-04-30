@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import net.yszero.frameworktest.android_priority_job_queue.APJQActivity;
 import net.yszero.frameworktest.butterknife.ButterknifeActivity;
 import net.yszero.frameworktest.rxjava.RxJavaActivity;
 
@@ -27,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ButterknifeActivity.class));
+            }
+        });
+
+        findViewById(R.id.activity_main_go_apjq).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, APJQActivity.class));
             }
         });
     }

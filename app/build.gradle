@@ -40,4 +40,9 @@ dependencies {
     // android priority job queue   **start**
     implementation 'com.birbit:android-priority-jobqueue:2.0.1'
     // android priority job queue   **end**
+
+    // Retrofit  **start**
+    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    // Retrofit  **end**
 }
